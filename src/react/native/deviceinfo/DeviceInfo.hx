@@ -63,8 +63,7 @@ extern class DeviceInfo {
 	static function getIncrementalSync(): String;
 	static function isPinOrFingerprintSet(): Promise<Bool>;
 	static function isPinOrFingerprintSetSync(): Bool;
-	static function hasNotch(): Promise<Bool>;
-	static function hasNotchSync(): Bool;
+	static function hasNotch(): Bool;
 	static function getFirstInstallTime(): Promise<Float>;
 	static function getFirstInstallTimeSync(): Float;
 	static function getLastUpdateTime(): Promise<Float>;
