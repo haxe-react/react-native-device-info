@@ -54,7 +54,8 @@ extern class DeviceInfo {
 	static function getType():Promise<String>;
 	static function getTotalDiskCapacity():Promise<Float>;
 	static function getTotalMemory():Promise<Float>;
-	static function getUniqueId():String;
+	static function getUniqueId():Promise<String>;
+	static function getUniqueIdSync():String;
 	static function getUsedMemory():Promise<Float>;
 	static function getUserAgent():Promise<String>;
 	static function getVersion():String;
